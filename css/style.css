@@ -1,8 +1,4 @@
 /* Global Rules */
-* {
-    font-family: 'Lato', sans-serif;
-}
-
 html{
     margin: 0em 4.5em;
 }
@@ -14,6 +10,10 @@ h1 {
 
 h2 {
     text-align: left;
+}
+
+body {
+    font-family: Lato;
 }
 
 /* Class Rules */
@@ -57,4 +57,34 @@ h2 {
 .fire-brick {
     background-color: firebrick;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.sourcecodepro {
+    font-family: 'Source Code Pro', serif;
+}
+
+.oswald {
+    font-family: 'Oswald', serif;
+}
+
+.notable {
+    font-family: 'Notable', serif;
+}
+
+.font {
+    display: inline-block;
+    clear: both;
+    margin: 0em 1em;
+}
 /* ID Rules */
+
+#styles {
+    text-align: center;
+}
