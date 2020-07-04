@@ -1,0 +1,60 @@
+/* Global Rules */
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    margin: 0em 4.5em;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 1em 0em;
+}
+
+h2 {
+    text-align: left;
+}
+
+/* Class Rules */
+.container {
+    border: 2px grey solid;
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.color-box {
+    padding: 10px 10px;
+    margin: 10px 6px;
+    display: inline-block;
+    width: 10em;
+    height: 5em;
+    text-align: center;
+    color: white;
+}
+
+.cool-blue {
+    background-color: #22ddcc;
+}
+
+.med-spring-green {
+    background-color: mediumspringgreen;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.dodger-blue {
+    background-color: dodgerblue;
+}
+
+.slate-grey {
+    background-color: slategrey;
+}
+
+.fire-brick {
+    background-color: firebrick;
+}
+/* ID Rules */
